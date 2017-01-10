@@ -15,14 +15,14 @@ const Home = (props) => (
     </p>
     <h2 className={css(styles.header)}>About Me</h2>
     <p className={css(styles.lead)}>
-      I was born on Monday March 19, 1990...<br/>
+      Let's start with when my story begins: Monday March 19, 1990...<br/>
       <br/>
       Just kidding. In short, I'm someone motivated by fundamentally understanding how things work. Academically, I've run the gamut from Spanish major, 
       to CFA charterholder, to software immersion graduate. Professionally, I spent roughly two years at The J.P. Morgan Private Bank in New York and coming 
       on two and a half years with Stanford Consulting Group in the Bay Area learning as much as possible about finance. I've simultaneously been self-teaching 
       software development to automate the routine portions of my job and to free up time to focus on the parts I love.<br/>
       <br/>
-      Ultimately, I'd describe myself as a curious person who enjoys exploring the 'why' and 'how' behind status quo systems.
+      Ultimately, I'd describe myself as an intensely curious individual who enjoys exploring the 'why' and 'how' underpinning the status quo.
     </p>
     <h2 className={css(styles.header)}>My Background: The Highlights</h2>
     <p className={css(styles.lead)}>
