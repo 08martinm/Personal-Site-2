@@ -1,6 +1,7 @@
 import React from 'react'
 import Helmet from 'react-helmet'
 import Nav from './Nav'
+import Chart from './Chart'
 import { StyleSheet, css } from 'aphrodite'
 
 const App = ({ children }) => (
@@ -9,9 +10,12 @@ const App = ({ children }) => (
     <div className={css(styles.titleBoxContainer)}>
       <div className={css(styles.titleBox)}>
         <h1 className={css(styles.title)}>Matthew Martin</h1>
-        <div className={css(styles.horizLine)}/>
+        <div className={css(styles.horizLine)} />
         <h3 className={css(styles.description)}>Professional Biography</h3>
       </div>
+    </div>
+    <div>
+      <Chart />
     </div>
     <Nav />
     {children}
@@ -47,23 +51,31 @@ const styles = StyleSheet.create({
     margin: 'auto'
   },
   titleBox: {
-    //Background color
+    // Background color
     backgroundColor: 'rgba(0,0,0,0.2)',
-    //White border
+    // White border
     border: '5px',
     color: 'white',
     borderStyle: 'solid',
-    //Fixed Dimensions
+    // Fixed Dimensions
     width: '500px',
     padding: '25px',
-    //Horizontally center
+    // Horizontally center
     margin: '0 auto'
   },
   titleBoxContainer: {
     height: '400px',
-    //Vertically center titleBox
+    width: '100%',
+    // Vertically center titleBox
     display: 'flex',
     alignItems: 'center',
+    // Set background image
+    background: "url('Elegant_Background-" + Math.floor(Math.random() * 20 + 1) + ".jpg') no-repeat center center"
+    // backgroundRepeat: 'no-repeat'
+  },
+  d3SVG: {
+    width: '200px',
+    height: '200px'
   },
   footer: {
     margin: '4rem auto',
