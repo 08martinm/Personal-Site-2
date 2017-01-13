@@ -16,10 +16,10 @@ class TitleBox extends React.Component {
           <div className={css(styles.titleBox)}>
             <h1 className={css(styles.title)}>Matthew Martin</h1>
             <div className={css(styles.horizLine)} />
-            <h3 className={css(styles.description)} data-hover='MIT Sloan Applicant' data-active='Professional Background'><span></span></h3>
+            <h3 className={css(styles.description)} ><span>Liberal Arts, Finance, Software</span></h3>
           </div>
         </div>
-        <p className={css(styles.proTip)}>Pro-Tip: Click on the image above!</p>
+        <p className={css(styles.proTip)}>Pro-Tip: Click near the dots above</p>
       </div>
   )}
 }
@@ -33,12 +33,8 @@ const styles = StyleSheet.create({
   },
   description: {
     color: 'white',
-    fontSize: 24,
+    fontSize: 20,
     textAlign: 'center',
-    content: "attr(data-active)",
-    ':hover span:after': {
-      content: "attr(data-hover)"
-    }
   },
   horizLine: {
     width: '90%',
@@ -65,6 +61,15 @@ const styles = StyleSheet.create({
       transition: 'all 1000ms ease-in-out'
     },
     transition: 'all 1000ms ease-in-out',
+    zIndex: 1,
+    ':hover h3 span': {
+      position: 'absolute',
+      visibility: 'hidden',
+    },
+    ':hover h3:before': {
+      visibility: 'visible',
+      content: '"MIT Sloan Applicant"',
+    },
   },
   titleBoxContainer: {
     height: '400px',
@@ -74,7 +79,6 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     // Set background image
     background: "url('Elegant_Background-5.jpg') no-repeat center center",
-    zIndex: 1
   },
   proTip: {
     textAlign: 'center',

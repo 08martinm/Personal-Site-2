@@ -44,14 +44,6 @@ const Home = (props) => (
           in Dallas into full-time employment in New York. I still look back and am somewhat amazed at the combination of luck and perseverance it took to
           begin this wild ride.</li>
     </ul>
-    <ul className={css(styles.list)}>
-      {data.map((item, i) => (
-        <li key={i}>
-          <h3><a className={css(styles.link)} href={item.link} target='_blank'>{item.resource}</a></h3>
-          <p className={css(styles.body)}>{item.description}</p>
-        </li>
-       ))}
-    </ul>
   </div>
 )
 
