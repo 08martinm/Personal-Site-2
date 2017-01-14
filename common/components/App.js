@@ -6,13 +6,14 @@ import TitleBox from './titleBox'
 import { StyleSheet, css } from 'aphrodite'
 import particleParams from './particlesjs-config-obj';
 import particleStyle from './particlesjs-style-obj';
+import { Router, Route, Link } from 'react-router';
 
 const App = ({ children }) => (
   <div className={css(styles.root)}>
     <Helmet title='Home' titleTemplate='%s - Matthew Martin' />
-    <Particles width={"650px"} height={"400px"} params={particleParams} style={particleStyle} />
+    <Particles width={"618px"} height={"400px"} params={particleParams} style={particleStyle} />
     <TitleBox />
-    <Nav className={css(styles.nav)} />
+    <Nav />
     {children}
     <footer className={css(styles.footer)}>
       Coded by <a className={css(styles.footerLink)} href='http://github.com/08martinm' target='_blank'>Matt Martin</a>
@@ -22,13 +23,10 @@ const App = ({ children }) => (
 
 const styles = StyleSheet.create({
   root: {
-    width: 650,
+    width: 618,
     color: '#000',
     margin: '2rem auto',
     padding: '0 1rem'
-  },
-  nav: {
-    margin: '0 auto'
   },
   footer: {
     margin: '4rem auto',

@@ -8,7 +8,7 @@ const Nav = () => (
     <IndexLink to='/' className={css(styles.link)} activeClassName={css(styles.link, styles.activeLink)}>
       Home
     </IndexLink>
-    <Link to='/video' className={css(styles.link)} activeClassName={css(styles.link, styles.activeLink)}> Video Introduction
+    <Link to='/video' className={css(styles.link)} activeClassName={css(styles.link, styles.activeLink)}>Video Introduction
     </Link>
     <a href='https://linkedin.com/in/08martinm' className={css(styles.link)} target='_blank'>LinkedIn</a>
     <a href='https://github.com/08martinm' className={css(styles.link)} target='_blank'>GitHub</a>
