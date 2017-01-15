@@ -1,5 +1,5 @@
 import React from 'react'
-import SideBar from './SideBar'
+import SideBar from './sidebar'
 import { StickyContainer, Sticky } from 'react-sticky';
 import { StyleSheet, css } from 'aphrodite'
 
@@ -49,7 +49,7 @@ const Home = (props) => (
 
 const styles = StyleSheet.create({
   content: {
-    position: 'inline-block'
+    display: 'inline-block'
   },
   header: {
     fontSize: 28,
