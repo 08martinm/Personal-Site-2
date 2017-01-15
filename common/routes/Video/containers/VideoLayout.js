@@ -19,7 +19,7 @@ const VideoLayout = ({ posts }) => (
     <Helmet title='Video' />
       <div>
         <h2 className={css(styles.title)}>Video Introduction</h2>
-        <iframe width="640" height="360" src="https://www.youtube.com/embed/8QSywj5IqrM?rel=0" frameborder="0" allowfullscreen></iframe>
+        <iframe width="640" height="360" src="https://www.youtube.com/embed/8QSywj5IqrM?rel=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
       </div>
   </div>
 )
@@ -37,6 +37,10 @@ const styles = StyleSheet.create({
     margin: '0 auto 1.5rem',
     textAlign: 'center',
     color: '#b7b7b7'
+  },
+  iFrame: {
+    maxWidth: '100%!important',
+    maxHeight: '100%!important'
   }
 })
 
