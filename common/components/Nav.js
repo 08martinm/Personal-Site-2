@@ -10,7 +10,7 @@ const Nav = () => (
     </IndexLink>
     <Link to='/video' className={css(styles.link)} activeClassName={css(styles.link, styles.activeLink)}>Video Introduction
     </Link>
-    <Link to='/timeline' className={css(styles.link)} activeClassName={css(styles.link, styles.activeLink)}>Timeline
+    <Link to='/timeline' className={css(styles.link)} activeClassName={css(styles.link, styles.activeLink)}>Personal Statement
     </Link>
   </div>
 )
