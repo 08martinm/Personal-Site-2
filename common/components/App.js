@@ -11,7 +11,7 @@ import { Router, Route, Link } from 'react-router';
 const App = ({ children }) => (
   <div className={css(styles.root)}>
     <Helmet title='Home' titleTemplate='%s - Matthew Martin' script={[{'src': 'https://use.fontawesome.com/a74fb94df3.js'}]}/>
-    <Particles width={"618px"} height={"400px"} params={particleParams} style={particleStyle} />
+    <Particles width={"750px"} height={"400px"} params={particleParams} style={particleStyle} />
     <TitleBox />
     <Nav />
     {children}
@@ -23,10 +23,10 @@ const App = ({ children }) => (
 
 const styles = StyleSheet.create({
   root: {
-    width: 618,
+    width: '750px',
     color: '#000',
-    margin: '2rem auto',
-    padding: '0 1rem'
+    margin: '0 auto',
+    padding: '0'
   },
   footer: {
     margin: '4rem auto',

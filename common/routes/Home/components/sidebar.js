@@ -5,7 +5,7 @@ import { StyleSheet, css } from 'aphrodite'
 const SideBar = (props) => (
   <div className={css(styles.sideBarContainer)}>
     <Sticky>
-      <img src='head_shot.jpg' alt='My face' height="125" width="125" className={css(styles.imgCircle)} />
+      <img src='head_shot.jpg' alt='My face' height="90" width="90" className={css(styles.imgCircle)} />
       <h3 className={css(styles.bioHeader)}>Matthew Martin</h3>
       <ul className={css(styles.bio)}>
         <li>Blockchain Developer</li>
@@ -28,12 +28,11 @@ const SideBar = (props) => (
 const styles = StyleSheet.create({
   sideBarContainer: {
     position: 'relative',
-    left: '-200px',
     height: '0px',
-    width: '150px',
+    width: '100px',
   },
   bioHeader: {
-    fontSize: '18px',
+    fontSize: '14px',
     textAlign: 'center',
     marginTop: '15px'
   },
@@ -43,7 +42,7 @@ const styles = StyleSheet.create({
     margin: '0 auto'
   },
   bio: {
-    fontSize: '12px',
+    fontSize: '10px',
     listStyleType: 'none',
     paddingLeft: 1,
     // textAlign: 'center',
@@ -52,7 +51,7 @@ const styles = StyleSheet.create({
   socialMedia: {
     listStyleType: 'none',
     paddingLeft: 0,
-    fontSize: '15px',
+    fontSize: '11px',
     lineHeight: '2',
     color: '#555',
     textDecoration: 'none'

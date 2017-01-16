@@ -73,7 +73,7 @@ const styles = StyleSheet.create({
   },
   titleBoxContainer: {
     height: '400px',
-    width: '650px',
+    width: '750px',
     // Vertically center titleBox
     display: 'flex',
     alignItems: 'center',
