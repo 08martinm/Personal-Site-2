@@ -8,7 +8,7 @@ const SideBar = (props) => (
       <img src='head_shot.jpg' alt='My face' height="90" width="90" className={css(styles.imgCircle)} />
       <h3 className={css(styles.bioHeader)}>Matthew Martin</h3>
       <ul className={css(styles.bio)}>
-        <li>Blockchain Developer</li>
+        <li>Blockchain Dev</li>
         <li>CFA charterholder</li>
         <li>Spanish Major</li>
         <li>Mountain Climber</li>
@@ -20,7 +20,6 @@ const SideBar = (props) => (
         <li><a className={css(styles.socialMedia)} target='_blank' href='https://www.github.com/08martinm'><i className="fa fa-fw fa-github" aria-hidden="true"></i>GitHub</a></li>
         <li><a className={css(styles.socialMedia)} target='_blank' href='https://www.angellist.com/matt-martin-3'><i className="fa fa-fw fa-angellist" aria-hidden="true"></i>Angel List</a></li>
       </ul>
-
     </Sticky>
   </div>
 )

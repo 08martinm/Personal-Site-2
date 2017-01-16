@@ -1,7 +1,8 @@
 import React from 'react'
 import SideBar from './sidebar'
-import { StickyContainer, Sticky } from 'react-sticky';
+import { StickyContainer, Sticky } from 'react-sticky'
 import { StyleSheet, css } from 'aphrodite'
+import Link from 'react-router/lib/Link'
 
 const Home = (props) => (
   <div>
@@ -10,8 +11,8 @@ const Home = (props) => (
       <div className={css(styles.content)}>
         <h2 className={css(styles.header)}>Obligatory `Hello World`</h2>
         <p className={css(styles.lead)}>
-          First, thanks for visiting my site. Here, I share a little about my background, my current interests, and future goals. If you're visiting from MIT admissions, I
-          encourage you to check out my personal video. If you've stumbled across this by accident, feel free to take a look around!
+          First, thanks for visiting my site. Here, I share a little about my background, my interests, and future goals. If you're visiting from MIT admissions, I
+          encourage you to check out my <Link to='/video'>personal video</Link>. If you've stumbled across this by accident, feel free to take a look around!
         </p>
         <h2 className={css(styles.header)}>About Me</h2>
         <p className={css(styles.lead)}>
@@ -50,7 +51,6 @@ const Home = (props) => (
 
 const styles = StyleSheet.create({
   content: {
-    // display: 'inline-block',
     float: 'right',
     height: '100%',
     width: '635px',
