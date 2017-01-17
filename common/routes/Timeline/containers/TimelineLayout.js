@@ -17,15 +17,15 @@ const TimelineLayout = ({ posts }) => (
     <StickyContainer>
       <Sticky className={css(styles.h3)}>2016</Sticky>
       <ul>
-        <li>Received promotion to Senior Analyst at work. Begin taking full responsibility for writing sections of our damages reports.</li>
-        <li>Put the coding skills to use as I return to Stanford Consulting Group - time to automate everything.</li>
+        <li>Promoted to Senior Analyst. Began writing sections of our damages reports.</li>
+        <li>Put the coding skills to use as I return to Stanford Consulting Group - time to automate everything!</li>
         <li>Read every library book on blockchain (4. It was 4 books. But it sounds better the other way).</li>
         <li>Fell in love with blockchain. If you don't know, it's the next big thing.</li>
-        <li>Attended Hack Reactor. Fell off the face of the planet for precisely 13-weeks as I learned everything JavaScript.</li>
+        <li>Attended Hack Reactor. Fell off the face of the planet for precisely 13 weeks as I learned everything JavaScript.</li>
         <li>Created an awesome website for MIT Sloan (okay, so this one's out of order. If you caught this, congratulations! I really didn't think you'd take the time to read each point).</li>
         <li>Completed the 4-year work requirement and (finally!) earned the 'CFA' designation.</li>
-        <li>Became best friends with my local coffee shop barista as I prepared for Hack Reactor.</li>
-        <li>Gave the Best-Man speech at my brother's wedding in Guatemala. Phenomenal guy, wife, and wedding. Couldn't be prouder to have them both in my family.</li>
+        <li>Befriended the local coffee shop barista as I prepared for Hack Reactor (I mean, I think we were friends. Every morning she'd ask: "More programmming?  0-1-0-0-1-1-0" ... as <span className={css(styles.sarcasm)}>friendly</span> chiding. Right?).</li>
+        <li>Gave the Best-Man speech at my brother's wedding in Guatemala.</li>
         <li>Accepted into Hack Reactor after the third application. Good things take time.</li>
         <li>My company and I explore the idea of me attending a software development bootcamp to further my automation skills.</li>
       </ul>
@@ -33,36 +33,36 @@ const TimelineLayout = ({ posts }) => (
     <StickyContainer>
       <Sticky className={css(styles.h3)}>2015</Sticky>
       <ul>
-        <li>Passed CFA Level III (and celebrated accordingly).</li>
+        <li>Passed CFA Level III (celebrated accordingly).</li>
         <li>Continued bringing myself up to speed with the entirety of the litigation consulting process.</li>
-        <li>Honed in on understanding the written portions of our damages reports. Began attempts at report writing.</li>
-        <li>Travelled California. Big Sur, Tahoe, Yosemite, Napa, Sonoma, Arcata, and more. Beautiful state. Happy to be here.</li>
+        <li>Focused on understanding the written portions of our damages reports. Attempted report writing.</li>
+        <li>Travelled California. Big Sur, Tahoe, Yosemite, Napa, Sonoma, Arcata, and more. Beautiful state. Climbed Half Dome.</li>
         <li>Sampled just about every coffee shop in Redwood City, Menlo Park, and Palo Alto while studying for CFA Level III.</li>
-        <li>Skiied Tahoe and Colorado.</li>
-        <li>Travelled to the Grand Canyon. Photos galore.</li>
+        <li>Skied Tahoe and Colorado.</li>
+        <li>Hiked/biked all around the Grand Canyon.</li>
       </ul>
     </StickyContainer>
     <StickyContainer>
       <Sticky className={css(styles.h3)}>2014</Sticky>
       <ul>
-        <li>Love my job. Pushing myself to learn more financial theory, the litigation process surrounding securities fraud, and the different damages models.</li>
-        <li>Wow my employers with embarrassingly good knowledge of Excel keyboard shortcuts.</li>
+        <li>Pushed myself to learn more financial theory, the litigation process surrounding securities fraud, and the different damages models.</li>
+        <li>Wowed my employers with my embarrassingly extensive knowledge of Excel keyboard shortcuts.</li>
         <li>Conquered the GMAT.</li>
         <li>Passed CFA Level II.</li>
         <li>Packed my bags and moved to sunny Cali-forn-I-A to work for Stanford Consulting Group.</li>
-        <li>Climbed 2 volacanos and a mountain in Mexico with my brother and friends. All 3 were successful climbs.</li>
-        <li>Explored the possibility of finding a role where I could directly apply my CFA knowledge. Wanted a more technically hands-on role.</li>
+        <li>Climbed 2 volacanos and a mountain in Mexico with my brother and friends. Successful summits for all 3.</li>
+        <li>Explored the possibility of finding a role where I could directly apply my CFA knowledge. Wanted a more technically hands-on role. Found the perfect fit.</li>
       </ul>
     </StickyContainer>
     <StickyContainer>
       <Sticky className={css(styles.h3)}>2013</Sticky>
       <ul>
-        <li>Crunch-time at J.P. Morgan. 9-months in and seemingly everyone jumps ship from my team, leaving me as the last man standing.</li>
-        <li>Somehow manage to sneak in enough studying when not working to pass CFA Level I.</li>
-        <li>Okay, fine. Really it's just all 3 of the analysts and a banker. But still. That's a lot of responsibility to inherit all at once.</li>
-        <li>Hold down the fort by learning to delegate and think/act quickly and decisively.</li>
+        <li>Crunch-time at J.P. Morgan. 9-months into my job, everyone jumped ship, leaving me to single-handedly manage $19bn of clients' wealth.</li>
+        <li>Okay, fine. Really it was just the 3 other analysts and a banker who left. But still. That's a lot of responsibility to inherit all at once.</li>
+        <li>Somehow managed to sneak in enough studying to pass CFA Level I.</li>
+        <li>Held down the fort by learning to delegate and to think/act quickly/decisively.</li>
         <li>Working 100-hours/week is tough.</li>
-        <li>Drink more coffee than is probably medically advisable.</li>
+        <li>Drank more coffee than is probably medically advisable.</li>
         <li>There's not really much else to say. Did I mention that I worked a lot?</li>
       </ul>
     </StickyContainer>
@@ -70,26 +70,28 @@ const TimelineLayout = ({ posts }) => (
       <Sticky className={css(styles.h3)}>2012</Sticky>
       <ul>
         <li>Year of change.</li>
-        <li>Hit the ground running at J.P. Morgan. Wide-eyed and ambitious, I felt incredibly lucky and humbled to have the opportunity to work on the Hedge Fund Principals Group.</li>
-        <li>I stay late after work each night to continue my financial education. I binge-read Investopedia articles and begin the CFA curriculum.</li>
-        <li>Go through J.P. Morgan Private Bank's Summer Training program. Learn a whole bunch. Nightly review everything twice to be sure it sinks in.</li>
-        <li>Travelled Europe with a friend made studying abroad in Buenos Aires.</li>
-        <li>Graduated from college. Wonder to myself how useful my Spanish degree will be on Wall Street.</li>
+        <li>Hit the ground running at J.P. Morgan. I was out to prove to the world that I could cut it in finance.</li>
+        <li>Stayed late after work each night to continue my financial education. I binge-read Investopedia articles and began the CFA curriculum.</li>
+        <li>Went through J.P. Morgan Private Bank's Summer Training program. Learned a whole bunch. Nightly reviewed everything twice to be sure it stuck.</li>
+        <li>Travelled Europe with a friend made studying abroad in Buenos Aires the prior year.</li>
+        <li>Graduated from college. Wondered whether my Spanish degree would be helpful on Wall Street (I'm sort of giving myself a hard time here. Honestly though, I couldn't have greater a greater appreciation for my liberal arts education. While it's easy to poke fun, I do credit it for cultivating my intellectual curiosity and a desire to learn).</li>
       </ul>
     </StickyContainer>
     <StickyContainer>
       <Sticky className={css(styles.h3)}>2011</Sticky>
       <ul>
-        <li>Intern with the J.P. Morgna Private Bank. I stay late each night to read Investopedia articles and learn Excel formulas.</li>
-        <li>I may not have had formal education in the field, but boy did I have the drive and determination to make it.</li>
-        <li>Ended that summer with an offer to work for the Hedge Fund Principals Group in New York.</li>
-        <li>Earned an internship in finance by reaching out to hundreds of Davidson College alumni.</li>
-        <li>Prepared like mad for my interview with the J.P. Morgan Private Bank in Dallas. Got the internship offer.</li>
-        <li>I stay late after work each night to continue my financial education. I binge-read Investopedia articles and begin the CFA curriculum.</li>
-        <li>Go through J.P. Morgan Private Bank's Summer Training program. Learn a whole bunch. Nightly review everything twice to be sure it sinks in.</li>
-        <li>Travelled Europe with a friend made studying abroad in Buenos Aires.</li>
-        <li>Graduated from college. Wonder to myself how useful my Spanish degree will be on Wall Street (surprisingly, very. I hold liberal arts in the highest regard
-            and credit it heavily for fostering an intellectual curiosity that has proven time and again to be my competitive advantage).</li>
+        <li>Ended the summer with an offer to work for J.P. Morgan's Hedge Fund Principals Group in New York.</li>
+        <li>Interned with the J.P. Morgan Private Bank. Stayed late each night to read Investopedia articles and learn Excel formulas.</li>
+        <li>I compensated for my lack of financial knowledge with Herculean effort (academically I suppose). That summer, I dug deep and pushed myself to work harder than I ever had before.</li>
+        <li>Stayed late after work each night to read Investopedia and write financial definitions in a journal. I re-read this financial diary every morning before work.</li>
+        <li>Prepared like mad for the one finance interview I received. Converted it into an internship offer.</li>
+        <li>Earned my internship interview by reaching out to hundreds of Davidson College alumni.</li>
+      </ul>
+    </StickyContainer>
+    <StickyContainer>
+      <Sticky className={css(styles.h3)}>2010</Sticky>
+      <ul>
+        <li>Okay, by this point I'm a college sophomore. That's enough; I'm calling it here.</li>
       </ul>
     </StickyContainer>
   </div>
@@ -102,6 +104,9 @@ TimelineLayout.PropTypes = {
 const styles = StyleSheet.create({
   root: {
     width: '100%' 
+  },
+  sarcasm: {
+    fontStyle: 'italic',
   },
   body: {
     fontSize: '18px',

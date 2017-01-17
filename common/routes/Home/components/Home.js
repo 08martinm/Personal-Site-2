@@ -11,7 +11,7 @@ const Home = (props) => (
       <div className={css(styles.content)}>
         <h2 className={css(styles.header)}>Obligatory `Hello World`</h2>
         <p className={css(styles.lead)}>
-          First, thanks for visiting my site. Here, I share a little about my background, my interests, and future goals. If you're visiting from MIT admissions, I
+          Thanks for visiting my site. Here, I share a little about my background, interests, and future goals. If you're visiting from MIT Admissions, I
           encourage you to check out my <Link to='/video'>personal video</Link>. If you've stumbled across this by accident, feel free to take a look around!
         </p>
         <h2 className={css(styles.header)}>About Me</h2>
@@ -19,15 +19,15 @@ const Home = (props) => (
           Let's start from the beginning: Monday March 19, 1990...<br />
           <br />
           Just kidding. In short, I'm someone motivated by fundamentally understanding how things work. Academically, I've run the gamut from Spanish major,
-          to CFA charterholder, to software immersion graduate. Professionally, I spent roughly two years at The J.P. Morgan Private Bank in New York and coming
-          on two and a half years with Stanford Consulting Group in the Bay Area learning as much as possible about finance. I've simultaneously been self-teaching
-          software development to automate the routine portions of my job and to free up time to focus on the parts I love.<br />
+          to CFA charterholder, to software immersion graduate. Professionally, I spent roughly two years with The J.P. Morgan Private Bank in New York and over 
+          two and a half years with Stanford Consulting Group in the Bay Area learning as much as possible about finance. I've simultaneously been self-teaching
+          software development to automate the routine portions of my job to focus on the parts I love.<br />
           <br />
           Ultimately, I'd describe myself as an intensely curious individual who enjoys exploring the 'why' and 'how' underpinning the status quo.
         </p>
         <h2 className={css(styles.header)}>My Background: The Highlights</h2>
         <p className={css(styles.lead)}>
-          Check out my resume for a more in-depth look, but here are a few of the things that I'm particularly proud of:
+          Check out my résumé and/or <Link to='/timeline'>timeline</Link> for a more in-depth look, but here are a few of the things that I'm particularly proud of:
         </p>
         <ul className={css(styles.lead)}>
           <li>Earned a promotion and 3-month sabbatical to attend a software immersion program. More than the title change or time away from work,
