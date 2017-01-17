@@ -22,7 +22,7 @@ const TimelineLayout = ({ posts }) => (
         <li>Read every library book on blockchain (4. It was 4 books. But it sounds better the other way).</li>
         <li>Fell in love with blockchain. If you don't know, it's the next big thing.</li>
         <li>Attended Hack Reactor. Fell off the face of the planet for precisely 13-weeks as I learned everything JavaScript.</li>
-        <li>Created an awesome website for MIT Sloan (okay, so this one's out of order. If you caught this, congratulations! I really didn't think you'd take the time to read each point.</li>
+        <li>Created an awesome website for MIT Sloan (okay, so this one's out of order. If you caught this, congratulations! I really didn't think you'd take the time to read each point).</li>
         <li>Completed the 4-year work requirement and (finally!) earned the 'CFA' designation.</li>
         <li>Became best friends with my local coffee shop barista as I prepared for Hack Reactor.</li>
         <li>Gave the Best-Man speech at my brother's wedding in Guatemala. Phenomenal guy, wife, and wedding. Couldn't be prouder to have them both in my family.</li>
@@ -88,7 +88,8 @@ const TimelineLayout = ({ posts }) => (
         <li>I stay late after work each night to continue my financial education. I binge-read Investopedia articles and begin the CFA curriculum.</li>
         <li>Go through J.P. Morgan Private Bank's Summer Training program. Learn a whole bunch. Nightly review everything twice to be sure it sinks in.</li>
         <li>Travelled Europe with a friend made studying abroad in Buenos Aires.</li>
-        <li>Graduated from college. Wonder to myself how useful my Spansih degree will be on Wall Street.</li>
+        <li>Graduated from college. Wonder to myself how useful my Spansih degree will be on Wall Street (surprisingly, very. I hold liberal arts in the highest regard
+            and credit it heavily for fostering an intellectual curiosity that has proven time and again to be my competitive advantage).</li>
       </ul>
     </StickyContainer>
   </div>
