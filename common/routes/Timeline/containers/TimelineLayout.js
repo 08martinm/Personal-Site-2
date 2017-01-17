@@ -57,7 +57,7 @@ const TimelineLayout = ({ posts }) => (
     <StickyContainer>
       <Sticky className={css(styles.h3)}>2013</Sticky>
       <ul>
-        <li>Crunch-time at J.P. Morgan. Nine months into my job, three senior analysts and a banker jumped ship. I inherit a lot of responsibility very quickly.</li>
+        <li>Crunch-time at J.P. Morgan. Nine months into my job, three senior analysts and a banker jumped ship. Inherited a lot of responsibility very quickly.</li>
         <li>Somehow managed to sneak in enough studying to pass CFA Level I.</li>
         <li>Held down the fort by learning to delegate and to think/act quickly/decisively.</li>
         <li>Working 100-hours/week is tough.</li>
