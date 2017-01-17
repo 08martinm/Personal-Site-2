@@ -74,7 +74,7 @@ const TimelineLayout = ({ posts }) => (
         <li>I stay late after work each night to continue my financial education. I binge-read Investopedia articles and begin the CFA curriculum.</li>
         <li>Go through J.P. Morgan Private Bank's Summer Training program. Learn a whole bunch. Nightly review everything twice to be sure it sinks in.</li>
         <li>Travelled Europe with a friend made studying abroad in Buenos Aires.</li>
-        <li>Graduated from college. Wonder to myself how useful my Spansih degree will be on Wall Street.</li>
+        <li>Graduated from college. Wonder to myself how useful my Spanish degree will be on Wall Street.</li>
       </ul>
     </StickyContainer>
     <StickyContainer>
