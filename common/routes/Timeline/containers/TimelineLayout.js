@@ -38,7 +38,7 @@ const TimelineLayout = ({ posts }) => (
         <li>Travelled California. Big Sur, Tahoe, Yosemite, Napa, Sonoma, Arcata, and more. Beautiful state. Climbed Half Dome.</li>
         <li>Sampled just about every coffee shop in Redwood City, Menlo Park, and Palo Alto while studying for CFA Level III.</li>
         <li>Skied Tahoe and Colorado.</li>
-        <li>Volunteer at the Boys and Girls Club teaching computer science through the Google Computer Science First program.</li>        
+        <li>Volunteered at the Boys and Girls Club teaching computer science through the Google Computer Science First program.</li>        
         <li>Hiked/biked all around the Grand Canyon.</li>
       </ul>
     </StickyContainer>
