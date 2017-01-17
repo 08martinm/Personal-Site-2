@@ -1,13 +1,13 @@
 import { provideHooks } from 'redial'
 import React, { PropTypes } from 'react'
-import { loadPosts } from '../actions'
+// import { loadPosts } from '../actions'
 import { connect } from 'react-redux'
 import { StyleSheet, css } from 'aphrodite'
 import Helmet from 'react-helmet'
 // import { selectPosts } from '../reducer'
 
 const redial = {
-  fetch: ({ dispatch }) => dispatch(loadPosts())
+  // fetch: ({ dispatch }) => dispatch(loadPosts())
 }
 
 const mapStateToProps = state => ({
@@ -19,7 +19,7 @@ const VideoLayout = ({ posts }) => (
     <Helmet title='Video' />
       <div>
         <h2 className={css(styles.title)}>Video Introduction</h2>
-        <div className={css(styles.videoContainer)}><iframe width="640" height="360" src="https://www.youtube.com/embed/DDJ8Sx_3PhA?rel=0" frameborder="0" allowFullScreen></iframe></div>
+        <div className={css(styles.videoContainer)}><iframe width="640" height="360" src="https://www.youtube.com/embed/DDJ8Sx_3PhA?rel=0" frameBorder="0" allowFullScreen></iframe></div>
       </div>
   </div>
 )

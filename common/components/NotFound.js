@@ -4,7 +4,7 @@ import Helmet from 'react-helmet'
 const NotFound = () => (
   <div>
     <Helmet title='Not Found' />
-    <h1>Page under construction!</h1>
+    <h1>Page Not Found!</h1>
   </div>
 )
 
