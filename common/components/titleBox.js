@@ -19,7 +19,6 @@ class TitleBox extends React.Component {
             <h3 className={css(styles.description)} ><span>Liberal Arts, Finance, Software</span></h3>
           </div>
         </div>
-        <p className={css(styles.proTip)}>Pro-Tip: Click (or tap if on cellphone/iPad) near the dots above</p>
       </div>
   )}
 }

@@ -35,7 +35,7 @@ const Home = (props) => (
               implement more robust software automation at work to ensure that my absence was worth their while.</li>
           <li>Managed and trained 3 new analysts at J.P. Morgan. Nine months into my job, all three senior analysts on my team and
               an established banker found new roles in the bank. Coming from a liberal arts background, I was thrown into the deep-end as I found myself
-              as the most senior analyst on a team managing $19bn of private clients' wealth. During this time, I quickly learned that I couldn't do everything
+              the most senior analyst on a team managing $19bn of private clients' wealth. During this time, I quickly learned that I couldn't do everything
               myself. So, I began serving in more of a Project Manager capacity: I meticulously tracked all outstanding client requests, delegated tasks, and
               worked 100-hour weeks to keep the team afloat. It remains the most rewarding experience I never want to do again.</li>
           <li>Launched a career in finance from a liberal arts background. My career in finance almost ended before it began. Coming from a liberal arts background,
