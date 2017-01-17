@@ -25,7 +25,7 @@ const TimelineLayout = ({ posts }) => (
         <li>Completed the four-year work requirement and (finally) earned the 'CFA' designation.</li>
         <li>Gave the Best-Man speech at my brother's wedding in Guatemala.</li>
         <li>Accepted into Hack Reactor.</li>
-        <li>Continue volunteering at the Boys and Girls Club. Help 4th-graders make some pretty awesome music videos using Scratch programming.</li>
+        <li>Continue volunteering at the Boys and Girls Club. Help fourth-graders make some pretty awesome music videos using Scratch programming.</li>
         <li>My company and I explore the idea of me attending a software development bootcamp to further my automation skills.</li>
       </ul>
     </StickyContainer>
@@ -50,14 +50,14 @@ const TimelineLayout = ({ posts }) => (
         <li>Conquered the GMAT.</li>
         <li>Passed CFA Level II.</li>
         <li>Packed my bags and moved to sunny Cali-forn-I-A to work for Stanford Consulting Group.</li>
-        <li>Climbed 2 volacanos and a mountain in Mexico with my brother and friends. Successful summits for all 3.</li>
+        <li>Climbed two volacanos and a mountain in Mexico with my brother and friends. Successful summits for all three.</li>
         <li>Explored the possibility of finding a role where I could directly apply my CFA knowledge. Wanted a more technically hands-on role. Found the perfect fit.</li>
       </ul>
     </StickyContainer>
     <StickyContainer>
       <Sticky className={css(styles.h3)}>2013</Sticky>
       <ul>
-        <li>Crunch-time at J.P. Morgan. 9-months into my job, 3 senior analysts and a banker jumped ship. I inherit a lot of responsibility very quickly.</li>
+        <li>Crunch-time at J.P. Morgan. Nine months into my job, three senior analysts and a banker jumped ship. I inherit a lot of responsibility very quickly.</li>
         <li>Somehow managed to sneak in enough studying to pass CFA Level I.</li>
         <li>Held down the fort by learning to delegate and to think/act quickly/decisively.</li>
         <li>Working 100-hours/week is tough.</li>
