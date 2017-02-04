@@ -67,7 +67,7 @@ const styles = StyleSheet.create({
     },
     ':hover h3:before': {
       visibility: 'visible',
-      content: '"MIT Sloan Applicant"',
+      content: '"Haas Applicant"',
     },
   },
   titleBoxContainer: {

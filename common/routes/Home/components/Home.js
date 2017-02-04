@@ -11,7 +11,7 @@ const Home = (props) => (
       <div className={css(styles.content)}>
         <h2 className={css(styles.header)}>Obligatory `Hello World`</h2>
         <p className={css(styles.lead)}>
-          Thanks for visiting my site. Here, I share a little about my background, interests, and future goals. If you're visiting from MIT Admissions, I
+          Thanks for visiting my site. Here, I share a little about my background, interests, and future goals. If you're visiting from Haas Admissions and only have limited time, I
           encourage you to check out my <Link to='/video'>personal video</Link>. If you've stumbled across this by accident, feel free to take a look around!
         </p>
         <h2 className={css(styles.header)}>About Me</h2>
