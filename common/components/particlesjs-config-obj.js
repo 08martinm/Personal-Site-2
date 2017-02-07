@@ -8,7 +8,7 @@ const particleConfig = {
       }
     },
     color: {
-      value: "#ffffff"
+      value: "#FFBD17"
     },
     shape: {
       type: "circle",
@@ -48,13 +48,13 @@ const particleConfig = {
     line_linked: {
       enable: true,
       distance: 100,
-      color: "#ffffff",
+      color: "#FFBD17",
       opacity: 0.4,
       width: 1
     },
     move: {
       enable: true,
-      speed: 3,
+      speed: 2,
       direction: "right",
       random: false,
       straight: false,

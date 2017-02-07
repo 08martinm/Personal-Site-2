@@ -33,7 +33,8 @@ const styles = StyleSheet.create({
   bioHeader: {
     fontSize: '14px',
     textAlign: 'center',
-    marginTop: '15px'
+    marginTop: '15px',
+    color: '#003057'
   },
   imgCircle: {
     borderRadius: '100%',
@@ -45,14 +46,14 @@ const styles = StyleSheet.create({
     listStyleType: 'none',
     paddingLeft: 1,
     // textAlign: 'center',
-    color: '#555'
+    color: '#003057'
   },
   socialMedia: {
     listStyleType: 'none',
     paddingLeft: 0,
     fontSize: '11px',
     lineHeight: '2',
-    color: '#555',
+    color: '#003057',
     textDecoration: 'none'
   }
 })

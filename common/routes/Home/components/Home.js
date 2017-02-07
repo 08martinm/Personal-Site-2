@@ -12,7 +12,7 @@ const Home = (props) => (
         <h2 className={css(styles.header)}>Obligatory `Hello World`</h2>
         <p className={css(styles.lead)}>
           Thanks for visiting my site. Here, I share a little about my background, interests, and future goals. If you're visiting from Haas Admissions and only have limited time, I
-          encourage you to check out my <Link to='/video'>personal video</Link>. If you've stumbled across this by accident, feel free to take a look around!
+          encourage you to check out my <Link className={css(styles.ref)} to='/video'>personal video</Link>. If you've stumbled across this by accident, feel free to take a look around!
         </p>
         <h2 className={css(styles.header)}>About Me</h2>
         <p className={css(styles.lead)}>
@@ -27,7 +27,7 @@ const Home = (props) => (
         </p>
         <h2 className={css(styles.header)}>My Background: The Highlights</h2>
         <p className={css(styles.lead)}>
-          Check out my résumé and/or <Link to='/timeline'>timeline</Link> for a more in-depth look, but here are a few of the things that I'm particularly proud of:
+          Check out my résumé and/or <Link className={css(styles.ref)} to='/timeline'>timeline</Link> for a more in-depth look, but here are a few of the things that I'm particularly proud of:
         </p>
         <ul className={css(styles.lead)}>
           <li>Earned a promotion and 3-month sabbatical to attend a software immersion program. More than the title change or time away from work,
@@ -56,13 +56,23 @@ const styles = StyleSheet.create({
     width: '635px',
     margin: '0 0 0 15px'
   },
+  ref: {
+    color: '#0066CC',
+    fontWeight: 'bold',
+    textDecoration: 'none',
+    ':hover': {
+      opacity: '0.5'
+    }
+
+  },
   stickyProps: {
     overflow: 'auto'
   },
   header: {
     fontSize: 28,
     lineHeight: '1.2',
-    margin: '0 0 1.5rem'
+    margin: '0 0 1.5rem',
+    color: '#003057'
   },
   lead: {
     fontSize: 18,

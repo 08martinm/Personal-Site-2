@@ -16,7 +16,7 @@ const App = ({ children }) => (
     <Nav />
     {children}
     <footer className={css(styles.footer)}>
-      Coded by <a className={css(styles.footerLink)} href='http://github.com/08martinm' target='_blank'>Matt Martin</a>
+      Coded by <a className={css(styles.footerLink)} href='http://github.com/08martinm' target='_blank'>Matthew Martin</a>
     </footer>
   </div>
 )
@@ -31,10 +31,11 @@ const styles = StyleSheet.create({
   footer: {
     margin: '4rem auto',
     textAlign: 'center',
-    color: '#b7b7b7'
+    color: '#003057'
   },
   footerLink: {
-    color: '#000',
+    color: '#FFBD17',
+    fontWeight: 'bold',
     textDecoration: 'none'
   }
 })

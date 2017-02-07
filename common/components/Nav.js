@@ -21,18 +21,18 @@ const styles = StyleSheet.create({
   },
   link: {
     maxWidth: 700,
-    color: '#999',
+    color: '#0066CC',
     margin: '1.5rem 1rem 1.5rem 0',
     display: 'inline-block',
     textDecoration: 'none',
     fontWeight: 'bold',
     transition: '.2s opacity ease',
     ':hover': {
-      opacity: 0.6
+      opacity: 0.5
     }
   },
   activeLink: {
-    color: '#000'
+    color: '#003057'
   }
 })
 

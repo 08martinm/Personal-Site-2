@@ -111,8 +111,10 @@ const styles = StyleSheet.create({
     backgroundColor: '#fff',
     margin: '0',
     padding: '20px 0',
-    borderBottom: 'solid 1px #333',
+    borderBottom: 'solid 1px #003057',
     zIndex: 1,
+    color: '#003057',
+    fontWeight: 'bold'
   },
   p: {
     padding: '15px 0',

@@ -77,7 +77,7 @@ const styles = StyleSheet.create({
     display: 'flex',
     alignItems: 'center',
     // Set background image
-    background: "url('Elegant_Background-5.jpg') no-repeat center center",
+    background: "url('background-1.png') center center",
   },
   proTip: {
     textAlign: 'center',

@@ -36,7 +36,7 @@ const styles = StyleSheet.create({
     fontSize: 28,
     margin: '0 auto 1.5rem',
     textAlign: 'center',
-    color: '#b7b7b7'
+    color: '#003057'
   },
   videoContainer: {
     width: '640px',
