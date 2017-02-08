@@ -15,10 +15,10 @@ const SideBar = (props) => (
         <li>Terrible Chef</li>
       </ul>
       <ul className={css(styles.socialMedia)}>
-        <li><a className={css(styles.socialMedia)} target='_blank' href='https://goo.gl/maps/xZ7xYnqNzXQ2'><i className="fa fa-fw fa-map-marker" aria-hidden="true"></i>Bay Area, CA</a></li>
-        <li><a className={css(styles.socialMedia)} target='_blank' href='https://www.linkedin.com/in/08martinm'><i className="fa fa-fw fa-linkedin" aria-hidden="true"></i>LinkedIn</a></li>
-        <li><a className={css(styles.socialMedia)} target='_blank' href='https://www.github.com/08martinm'><i className="fa fa-fw fa-github" aria-hidden="true"></i>GitHub</a></li>
-        <li><a className={css(styles.socialMedia)} target='_blank' href='https://www.angellist.com/matt-martin-3'><i className="fa fa-fw fa-angellist" aria-hidden="true"></i>Angel List</a></li>
+        <li><a className={css(styles.socialMedia, styles.yellowfy)} target='_blank' href='https://goo.gl/maps/xZ7xYnqNzXQ2'><span className={css(styles.margin)}><i className="fa fa-fw fa-map-marker" aria-hidden="true"></i></span>Bay Area, CA</a></li>
+        <li><a className={css(styles.socialMedia, styles.yellowfy)} target='_blank' href='https://www.linkedin.com/in/08martinm'><span className={css(styles.margin)}><i className="fa fa-fw fa-linkedin" aria-hidden="true"></i></span>LinkedIn</a></li>
+        <li><a className={css(styles.socialMedia, styles.yellowfy)} target='_blank' href='https://www.github.com/08martinm'><span className={css(styles.margin)}><i className="fa fa-fw fa-github" aria-hidden="true"></i></span>GitHub</a></li>
+        <li><a className={css(styles.socialMedia, styles.yellowfy)} target='_blank' href='https://www.angellist.com/matt-martin-3'><span className={css(styles.margin)}><i className="fa fa-fw fa-angellist" aria-hidden="true"></i></span>Angel List</a></li>
       </ul>
     </Sticky>
   </div>
@@ -29,6 +29,8 @@ const styles = StyleSheet.create({
     position: 'relative',
     height: '0px',
     width: '100px',
+    backgroundColor: '#FFBD17',
+    borderRadius: '25px'
   },
   bioHeader: {
     fontSize: '14px',
@@ -45,7 +47,6 @@ const styles = StyleSheet.create({
     fontSize: '10px',
     listStyleType: 'none',
     paddingLeft: 1,
-    // textAlign: 'center',
     color: '#003057'
   },
   socialMedia: {
@@ -55,6 +56,14 @@ const styles = StyleSheet.create({
     lineHeight: '2',
     color: '#003057',
     textDecoration: 'none'
+  },
+  yellowfy: {
+    ':hover': {
+      color: '#FFBD17'
+    }
+  },
+  margin: {
+    margin: '0 4px 0 0',
   }
 })
 

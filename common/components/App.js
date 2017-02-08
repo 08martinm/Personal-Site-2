@@ -36,7 +36,10 @@ const styles = StyleSheet.create({
   footerLink: {
     color: '#FFBD17',
     fontWeight: 'bold',
-    textDecoration: 'none'
+    textDecoration: 'none',
+    ':hover': {
+      color: '#0066CC'
+    }
   }
 })
 

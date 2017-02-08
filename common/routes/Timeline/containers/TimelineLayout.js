@@ -107,14 +107,13 @@ const styles = StyleSheet.create({
     backgroundColor: '#eee'
   },
   h3: {
-    textAlign: 'left',
+    textAlign: 'center',
+    fontWeight: 'bold',
     backgroundColor: '#fff',
     margin: '0',
-    padding: '20px 0',
-    borderBottom: 'solid 1px #003057',
+    padding: '5px 0',
+    borderBottom: 'solid 2.5px #003057',
     zIndex: 1,
-    color: '#003057',
-    fontWeight: 'bold'
   },
   p: {
     padding: '15px 0',

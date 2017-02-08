@@ -27,7 +27,7 @@ const styles = StyleSheet.create({
   title: {
     color: 'white',
     fontWeight: 'bold',
-    fontSize: 56,
+    fontSize: 50,
     textAlign: 'center',
   },
   description: {
@@ -38,15 +38,15 @@ const styles = StyleSheet.create({
   horizLine: {
     width: '90%',
     height: '1px',
-    background: 'white',
-    padding: '0.75px',
-    margin: 'auto'
+    background: '#FFBD17',
+    padding: '0.5px',
+    margin: '0 auto 5px auto'
   },
   titleBox: {
     // Background color
     backgroundColor: 'rgba(0,0,0,0.2)',
     // White border
-    border: '5px',
+    border: '2.5px',
     color: 'white',
     borderStyle: 'solid',
     // Fixed Dimensions
@@ -56,7 +56,6 @@ const styles = StyleSheet.create({
     margin: '0 auto',
     ':hover': {
       borderRadius: '100px',
-      color: "rgb(225,225,225)",
       transition: 'all 1000ms ease-in-out'
     },
     transition: 'all 1000ms ease-in-out',
