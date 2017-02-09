@@ -18,7 +18,6 @@ const VideoLayout = ({ posts }) => (
   <div className={css(styles.root)}>
     <Helmet title='Video' />
       <div>
-        <h2 className={css(styles.title)}>Video Introduction</h2>
         <div className={css(styles.videoContainer)}><iframe width="640" height="360" src="https://www.youtube.com/embed/I5Ljsi9dLrQ?rel=0" frameBorder="0" allowFullScreen></iframe></div>
       </div>
   </div>
